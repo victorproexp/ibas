@@ -22,11 +22,11 @@ namespace IbasAPI.Controllers
         public DailyProductionController(ILogger<DailyProductionController> logger)
         {
             _logger = logger;
-            var serviceUri = "https://crobat.table.core.windows.net/";
+            var serviceUri = "https://golbat.table.core.windows.net/";
             var tableName = "IBASProduction2020";
 
-            var accountName = "crobat";
-            var storageAccountKey = "5JqqQe8iZRGL2YJyZaDDiZVZBT5Y5FT23NX/bhDf5mQWVN43XZdz3djI9ZpuG94HAX8eO4loCePbX6U0SFGgPQ==";
+            var accountName = "golbat";
+            var storageAccountKey = "oXGB5v8dqLy23D/Ba+HW0d4FdZkcv5zvLSoZGui/uLDwqb76MNCqKwOEziqBTs4fV9PwtCxpY2two7paZkJ7eQ==";
 
             this._tableClient = new TableClient(
                 new Uri(serviceUri),
