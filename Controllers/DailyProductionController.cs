@@ -26,7 +26,7 @@ namespace IbasAPI.Controllers
             var tableName = "IBASProduction2020";
 
             var accountName = "golbat";
-            var storageAccountKey = "oXGB5v8dqLy23D/Ba+HW0d4FdZkcv5zvLSoZGui/uLDwqb76MNCqKwOEziqBTs4fV9PwtCxpY2two7paZkJ7eQ==";
+            var storageAccountKey = "dDBsOURjkmlej6J0+HQvorhdHfzQ1jR3z1N/KyniTRtn7qn3aL/mubG+vXRCFp6GDz2ROqum8vLE+AStrM6c5g==";
 
             this._tableClient = new TableClient(
                 new Uri(serviceUri),
